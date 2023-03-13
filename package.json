@@ -1,0 +1,33 @@
+{
+  "name": "eevee-utils",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "repository": "ssh://git@gitlab.leihuo.netease.com:32200/frontend/eevee/eevee-utils.git",
+  "author": "xiangyanxia <xiangyanxia@corp.netease.com>",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^18.15.0",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.4"
+  },
+  "dependencies": {
+    "@babel/core": "^7.21.0",
+    "@rollup/plugin-alias": "^4.0.3",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.4.0",
+    "@vitejs/plugin-legacy": "^4.0.1",
+    "bunchee": "^2.2.1",
+    "dumi": "^2.1.15",
+    "rollup": "^3.19.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "terser": "^5.16.6",
+    "tslib": "^2.5.0"
+  },
+  "scripts": {
+    "build": "rollup --config ./rollup.config.js"
+  }
+}

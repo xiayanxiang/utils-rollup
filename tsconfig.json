@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "importHelpers": true,
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "declaration": true,
+        "lib": ["esnext","dom"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "baseUrl": ".",
+        "outDir": "./lib",
+        "paths": {
+            "@/*": ["./src/*"],
+            "tslib": ["node_modules.tslib/tslib.d.ts"]
+        }
+      },
+      "include": ["./src/**/*"],
+    "exclude": [
+        "node_modules",
+        "lib"
+    ]
+}
